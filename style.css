@@ -18,7 +18,7 @@ body{
 .box{
   height: 300px;
   width: 300px;
-  border: 1px solid red;
+
   align-content: center;
 }
 .text{
@@ -166,3 +166,47 @@ body{
 
 /* ---------Fin pokebola CSS ------------ */
 
+
+/* Corona  en CSS*/
+.corona{
+  width: 270px;
+  border-top: 160px solid #ebbb30;
+  border-left: 25px solid transparent ;
+  border-right: 25px solid transparent;
+  position: relative;
+}
+.picos{
+  position: absolute;
+  width: 90px;
+  height: 150px;
+  background: #feee;
+  border-radius: 50%;
+  top: -240px;
+  left: -25px;
+  color: #feee;
+  box-shadow: 90px 0px, 180px 0px;
+
+
+}
+.base{
+  position: absolute;
+  width: 220px;
+  height: 10px;
+  background: #ebbb30;
+  top: 10px;
+  left: 1px;
+}
+.circulos{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ebbb30;
+  top: -160px;
+  left: -30px;
+  color: #ebbb30;
+  box-shadow: 84px -20px, 176px -20px, 263px 0px ;
+}
+
+
+/* fin de corona en CSS */
