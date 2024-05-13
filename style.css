@@ -18,7 +18,6 @@ body{
 .box{
   height: 300px;
   width: 300px;
-  border: 1px solid red;
   align-content: center;
 }
 .text{
@@ -166,3 +165,51 @@ body{
 
 /* ---------Fin pokebola CSS ------------ */
 
+/* Fantasma con css */
+
+.fantasma{
+  margin: auto;
+  width: 200px;
+  height: 250px;
+  background: rgb(226, 6, 61);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: relative;
+
+}
+.eye{
+  position: absolute;
+  width: 40px;
+  height: 70px;
+  border-radius: 50%;
+  background: white;
+  top: 30px;
+  left: 50px;
+  color: white;
+  box-shadow: 60px 0px;
+
+}
+.eye::before{
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 15px;
+  border-radius: 50%;
+  background: black;
+  top: 30px;
+  left: 12px;
+  box-shadow: 60px 0px black;
+}
+.picos{
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background-color: #feee;
+  border-radius: 50%;
+  bottom: -55px;
+  color: #feee;
+  box-shadow: 50px 0px, 100px 0px, 150px 0px;
+
+}
+
+/* fin de fantasma */
